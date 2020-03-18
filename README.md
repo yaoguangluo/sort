@@ -39,7 +39,7 @@ https://gitee.com/DetaChina/DataSwap/blob/master/src/org/deta/tinos/array/LYG5DW
 
 https://gitee.com/DetaChina/Data_Prediction/blob/master/src/org/tinos/deta/statistic/LYG5DWithDoubleQuickSort4D.java
 
-###### 论文思想地址：
+###### 论文思想列表集地址（微分催化，小高峰过滤，排序思维，等）：
 https://github.com/yaoguangluo/Deta_Resource
 
 ###### 罗瑶光 20200318
