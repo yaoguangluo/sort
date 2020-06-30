@@ -31,12 +31,12 @@ public class LYG7DWithDoubleQuickSort4D{
 				return;
 			}
 			int pos= partition(array, leftPoint, rightPoint);
-      if(leftPoint< pos- 1){
-         processDouble(array, leftPoint, pos- 1, deep+ 1);
-      }
-      if( pos+ 1< rightPoint){
-        processDouble(array, pos+ 1, rightPoint, deep+ 1);
-      }
+      			if(leftPoint< pos- 1){
+        			processDouble(array, leftPoint, pos- 1, deep+ 1);
+     	 		}
+      			if( pos+ 1< rightPoint){
+        			processDouble(array, pos+ 1, rightPoint, deep+ 1);
+      			}
 	}
 
 	private int partition(double[] array, int leftPoint, int rightPoint) {
