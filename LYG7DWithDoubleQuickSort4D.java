@@ -2,7 +2,7 @@ package org.tinos.deta.statistic;
 //基于算法导论快排4衍生极速小高峰缺陷过滤理论快速排序第7代 线性数字数组排序法函数Java完整版本实现。
 //思想：算法导论快排4理论，罗瑶光小高峰过滤理论,优化 催化波动算子duplication 思想, 减少条件递规深度思想。
 //实现：罗瑶光
-//时间：20140101~ 20200628
+//时间：20140101~ 20200701
 public class LYG7DWithDoubleQuickSort4D{
 	int range;
 	int deeps;
