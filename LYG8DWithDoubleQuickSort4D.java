@@ -20,7 +20,7 @@ public class LYG8DWithDoubleQuickSort4D{
       			if(leftPoint< pos- 1){
         			processDouble(array, leftPoint, pos- 1, deep+ 1);//减少条件递规深度思想。
      	 		}
-      			if( pos+ 1< rightPoint){
+      			if(pos+ 1< rightPoint){
         			processDouble(array, pos+ 1, rightPoint, deep+ 1);//减少条件递规深度思想。
       			}
 			return;
