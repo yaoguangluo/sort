@@ -15,7 +15,7 @@ public class LYG7DWithDoubleQuickSort4D{
 
 	private void processDouble(double[] array, int leftPoint, int rightPoint, int deep) {
 			int c= rightPoint- leftPoint;
-			if(c< this.range|| deep> this.deeps) {//balance催化减少条件递规深度思想。
+			if(!(c> this.range&& deep< this.deeps)) {//balance催化减少条件递规深度思想。
 				int i= leftPoint;
 				for(int j= i+ 1; j<= leftPoint+ c; j= i++){
 					while(j> leftPoint){
