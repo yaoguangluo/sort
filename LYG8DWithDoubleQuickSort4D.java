@@ -3,7 +3,7 @@ package org.tinos.deta.statistic;
 //思想：算法导论快排4理论，罗瑶光小高峰过滤理论,优化 催化波动算子duplication 思想, 减少条件递规深度思想。流水阀门优化思想.
 //实现：罗瑶光
 //时间：20140101~ 20200704
-public class LYG7DWithDoubleQuickSort4D{
+public class LYG8DWithDoubleQuickSort4D{
 	int range;
 	int deeps;
 	public double[] sort(double[] array, int range, int deeps) {
