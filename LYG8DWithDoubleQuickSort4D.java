@@ -14,27 +14,27 @@ public class LYG7DWithDoubleQuickSort4D{
 	}
 
 	private void processDouble(double[] array, int leftPoint, int rightPoint, int deep) {
-			int c= rightPoint- leftPoint;
-			if(!(c< this.range|| deep> this.deeps)) {//balance催化减少条件递规深度思想。
-				int pos= partition(array, leftPoint, rightPoint);
-      	if(leftPoint< pos- 1){
-        		processDouble(array, leftPoint, pos- 1, deep+ 1);//减少条件递规深度思想。
-     	 	}
-      	if( pos+ 1< rightPoint){
-        		processDouble(array, pos+ 1, rightPoint, deep+ 1);//减少条件递规深度思想。
-      	}
-				return;
+		int c= rightPoint- leftPoint;
+		if(!(c< this.range|| deep> this.deeps)) {//balance催化减少条件递规深度思想。//流水阀门优化思想。
+			int pos= partition(array, leftPoint, rightPoint);
+      			if(leftPoint< pos- 1){
+        			processDouble(array, leftPoint, pos- 1, deep+ 1);//减少条件递规深度思想。
+     	 		}
+      			if( pos+ 1< rightPoint){
+        			processDouble(array, pos+ 1, rightPoint, deep+ 1);//减少条件递规深度思想。
+      			}
+			return;
+		}
+      		int i= leftPoint;
+		for(int j= i+ 1; j<= leftPoint+ c; j= i++){
+			while(j> leftPoint){
+				if(array[j]< array[--j]){//催化波动算子duplication 思想
+					double temp= array[j+ 1];
+					array[j+ 1]= array[j];
+					array[j]= temp;
+				}
 			}
-       int i= leftPoint;
-				for(int j= i+ 1; j<= leftPoint+ c; j= i++){
-					while(j> leftPoint){
-						if(array[j]< array[--j]){//催化波动算子duplication 思想
-							double temp= array[j+ 1];
-							array[j+ 1]= array[j];
-							array[j]= temp;
-						}
-					}
-				}	
+		}	
 	}
 
 	private int partition(double[] array, int leftPoint, int rightPoint) {
