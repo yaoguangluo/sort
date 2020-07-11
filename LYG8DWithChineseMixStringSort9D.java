@@ -1,6 +1,6 @@
 package lYG4DQS4D;
 import java.util.HashMap;
-//20200314 集成了最新的小高峰过滤催化排序8代思想。
+//20200711 集成了最新的小高峰过滤催化排序8代思想。
 //罗瑶光
 import java.util.Map;
 public class LYG8DWithChineseMixStringSort9D{
@@ -118,16 +118,16 @@ public class LYG8DWithChineseMixStringSort9D{
 			int c= rightPosition- leftPosition; 
 			if(!(c< this.range|| deep> this.deeps)) {//增加了deep
 			  int pos= partition(kernel, leftPosition, rightPosition, scale, point);
-        if(leftPosition< pos- 1){
+        		if(leftPosition< pos- 1){
 			    processQS4DLYG5D(kernel, leftPosition, pos- 1, scale, point, deep+ 1);
-        }
-        if(pos+ 1< rightPosition){
+       			 }
+        		if(pos+ 1< rightPosition){
 			    processQS4DLYG5D(kernel, pos+ 1, rightPosition, scale, point, deep+ 1);
-        }
-        return;		
-    }	
-    processSort(kernel, leftPosition, rightPosition, scale, point);
-    return;		
+        		}
+        		return;		
+    		}	
+   		 processSort(kernel, leftPosition, rightPosition, scale, point);
+    		return;		
 	}
 
 	private boolean findSmall(String[] kernel, int scale, int point
