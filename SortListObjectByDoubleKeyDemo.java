@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import org.deta.tinos.array.LYG8DWithDoubleQuickSort4D;//看大家放在哪个包下自己改
-public class sortListObjectByDoubleKeyDemo{
+public class SortListObjectByDoubleKeyDemo{
 	public static void main(String argv[]) throws IOException {
 		//初始化一个需要排序的对象 数组， 我们参考 数组【0】来排序。
 		List<Object[]> list= new ArrayList<>();
