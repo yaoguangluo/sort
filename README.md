@@ -42,4 +42,6 @@ https://gitee.com/DetaChina/Data_Prediction/blob/master/src/org/tinos/deta/stati
 ###### 论文思想列表集地址（微分催化，小高峰过滤，排序思维，等）：
 https://github.com/yaoguangluo/Deta_Resource
 
+https://github.com/yaoguangluo/Deta_Resource/blob/master/%E6%8E%92%E5%BA%8F%E7%A0%94%E7%A9%B6%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95.pdf
+
 ###### 罗瑶光 20200318
