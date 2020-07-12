@@ -9,7 +9,7 @@ public class LYG8DWithChineseMixStringSort9D{
 	int range;
 	int deeps;
 	public void quick4DChineseStringArray(String[] strings, int leftPosition
-			, int rightPosition, int scale, Map<String, String> map, int range, int deeps) {
+			, int rightPosition, int scale, Map<String, String> map, int range, int deeps) {//这里的map是 中文的拼音 表, 如 poscc.lyg, poscp.lyg 等文件可自由设计
 		this.pinyin= map;
 		this.range= range;
 		this.deeps= deeps;
