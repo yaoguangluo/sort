@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import org.deta.tinos.list.ListSwap;
-import org.tinos.deta.statistic.LYG9DWithDoubleQuickSort4D;
+import org.tinos.deta.statistic.LYG8DWithDoubleQuickSort4D;
 import org.tinos.engine.analysis.Analyzer;
 import org.tinos.engine.analysis.imp.CogsBinaryForestAnalyzerImp;
 import org.tinos.view.obj.WordFrequency;
