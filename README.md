@@ -44,25 +44,20 @@ https://github.com/yaoguangluo/Deta_Resource
 
 https://github.com/yaoguangluo/Deta_Resource/blob/master/%E6%8E%92%E5%BA%8F%E7%A0%94%E7%A9%B6%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95.pdf
 
-###### 相关生态应用函数
-####### 
-极速排序对象契字符串排序
+##### 相关生态应用函数
+###### 极速排序对象契字符串排序
 LYG9DWithChineseMixStringSort9D.java
 Create LYG9DWithChineseMixStringSort9D.java
-#######
-极速排序对线性 double 数组排序
+###### 极速排序对线性 double 数组排序
 LYG9DWithDoubleQuickSort4D.java
 Create LYG9DWithDoubleQuickSort4D.java
-#######
-极速排序对自然语言分词对象排序
+###### 极速排序对自然语言分词对象排序
 NLPTopicMatch.java
 Update NLPTopicMatch.java
-#######
-极速排序对非线性链表对象 排序
+###### 极速排序对非线性链表对象 排序
 SortListObjectByDoubleKeyDemo.java
 Update and rename sortListObjectByDoubleKeyDemo.java to SortListObjec…
-#######
-极速排序对欧拉环唯一最短路径排序
+###### 极速排序对欧拉环唯一最短路径排序
 YaoguangLuoEulerRingTSP3D.java
 Create YaoguangLuoEulerRingTSP3D.java
 
