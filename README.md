@@ -23,12 +23,15 @@
 ###### 		return array;
 ###### 	}
   
-######   相关地址：
-  https://github.com/yaoguangluo/Data_Processor/blob/master/DP/sortProcessor/Demo.java
+#####   相关地址：
+
+###### https://github.com/yaoguangluo/Data_Processor/tree/master/DP/sortProcessor
+
+###### https://github.com/yaoguangluo/Data_Processor/blob/master/DP/sortProcessor/Demo.java
   
 ###### 这个算法以APACHE2.0证书发布免费给全世界使用，版权所属送给中华人民共和国，荣誉赠送给詹姆斯.高斯林先生，动机来自小生写给梁女士的求婚礼物2020。
 
-###### 软著发表原文地址：
+##### 软著发表原文地址：
 ###### GITHUB
 https://github.com/yaoguangluo/DataSwap/blob/master/src/org/deta/tinos/array/LYG5DWithDoubleQuickSort4D.java
 
