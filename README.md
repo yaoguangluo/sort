@@ -24,6 +24,10 @@
 ###### 	}
   
 #####   相关地址：
+##### 最新三代
+https://github.com/yaoguangluo/sort/blob/master/LYG9DWithDoubleTopSort3D.java
+##### 涉及链接
+https://github.com/yaoguangluo/DNA_Chromosome_backup20210705/blob/codingbackup18801/2021/07/16/LYG9DWithDoubleTopSort3D.java
 
 ###### https://github.com/yaoguangluo/Data_Processor/tree/master/DP/sortProcessor
 
