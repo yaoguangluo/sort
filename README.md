@@ -33,7 +33,7 @@ https://github.com/yaoguangluo/DNA_Chromosome_backup20210705/blob/codingbackup18
 
 ###### https://github.com/yaoguangluo/Data_Processor/blob/master/DP/sortProcessor/Demo.java
   
-###### 这个算法以APACHE2.0证书发布免费给全世界使用，版权所属送给中华人民共和国，荣誉赠送给詹姆斯.高斯林先生，动机来自小生写给梁女士的求婚礼物 2020。
+###### 这个算法以APACHE2.0证书发布免费给全世界使用，版权所属送给中华人民共和国，荣誉赠送给詹姆斯.高斯林先生，（动机来自小生写给梁女士的求婚礼物 2020年2月15~2020年10月发现是我一厢情愿，已取消。）。
 
 ##### 软著发表原文地址：
 ###### GITHUB
